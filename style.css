@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+html{
+
+  --background: #978a87;
+  --div-color: #ac7d2c;
+  --border-cor: #66625c;
+}
+
+
+.container{
+
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.cardgrid {
+  display: inline-block;
+
+  background: url("./bg-pattern-card.svg") top no-repeat;
+
+  gap: 1.5rem;
+  
+
+  border: solid 1px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 2px #121212;
+
+  width: 18rem;
+  height: 18rem;
+  padding: 2rem;
+
+}
+
+#image{
+
+  display: inline-block;
+
+  width: 6rem;
+  height: 6rem;
+
+  border: solid 1px #ede8e8;
+  border-radius: 30px;
+  box-shadow: 1px;
+
+
+}
+
+
+
+
+
+  
+  
