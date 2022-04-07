@@ -17,7 +17,7 @@ html{
 
   width: 100vw;
   height: 100vh;
-  padding-top: 8rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -25,10 +25,13 @@ html{
 
 }
 
+
+/*CARD*/
+
 .cardgrid {
   display: inline-block;
 
-  background: url("./bg-pattern-card.svg") top no-repeat;
+  background: url("./assets/bg-pattern-card.svg") top no-repeat;
 
   gap: 1.5rem;
   
@@ -43,22 +46,52 @@ html{
 
 }
 
-#image{
+.cardgrid img{
 
-  display: inline-block;
+  display: flex;
 
-  width: 6rem;
-  height: 6rem;
+  position: relative;
+  top: 2.7rem;
+  left: 5.5rem;
+
+  width: 7rem;
+  height: 7rem;
+  
+  
 
   border: solid 1px #ede8e8;
   border-radius: 30px;
   box-shadow: 1px;
-
-
 }
 
+.text{
+  text-align: center;
+  padding: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p{
+  text-align: center;
+  color: #978a87;
+  margin-top: -3rem;
+
+  padding: 1rem;
+}
+
+.cardgrid .social img{
+  grid-auto-flow: column;
+
+  display: inline-block;
+  margin-bottom: 2rem;
+  top: -0.2rem;
+  left: 2rem;
+
+  margin-left: 0.2rem;
 
 
+  width: 4rem;
+  height: 4rem;
+}
 
 
   
