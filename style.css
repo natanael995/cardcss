@@ -25,6 +25,11 @@ html{
 
 }
 
+.container{
+
+  background-color: aliceblue;
+
+}
 
 /*CARD*/
 
@@ -32,13 +37,14 @@ html{
   display: inline-block;
 
   background: url("./assets/bg-pattern-card.svg") top no-repeat;
+  
 
   gap: 1.5rem;
   
 
-  border: solid 1px;
+  border: solid 2px #272626;
   border-radius: 30px;
-  box-shadow: 2px 2px 2px 2px #121212;
+  box-shadow: 2px 2px 2px 2px;
 
   width: 18rem;
   height: 18rem;
@@ -59,7 +65,7 @@ html{
   
   
 
-  border: solid 1px #ede8e8;
+  border: solid 1px #fcf9f9;
   border-radius: 30px;
   box-shadow: 1px;
 }
@@ -70,6 +76,7 @@ html{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+
 p{
   text-align: center;
   color: #978a87;
@@ -92,7 +99,5 @@ p{
   width: 4rem;
   height: 4rem;
 }
-
-
   
   
